@@ -1,0 +1,16 @@
+@import "./normalize.css";
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}/*# sourceMappingURL=style.css.map */
