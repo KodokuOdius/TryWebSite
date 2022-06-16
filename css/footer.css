@@ -1,3 +1,43 @@
 footer.footer {
   background: green;
+  padding: 25px 25px 10px;
+}
+footer.footer div.content {
+  display: flex;
+  justify-content: space-around;
+}
+footer.footer div.content p.text {
+  text-align: justify;
+}
+footer.footer div.content div.footer_column + div.footer_column {
+  margin-left: 10px;
+  border-left: 2px solid black;
+  padding-left: 20px;
+}
+footer.footer div.content div.footer_column {
+  min-width: 250px;
+}
+footer.footer div.content div.footer_column h3.title {
+  text-align: end;
+}
+footer.footer div.content div.footer_column ul.society {
+  display: flex;
+  flex-wrap: wrap;
+}
+footer.footer div.content div.footer_column ul.society li.soc_link {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+footer.footer div.content div.footer_column ul.friends li.friend {
+  display: flex;
+  justify-content: space-between;
+}
+footer.footer div.content div.footer_column ul.friends li.friend h6 {
+  font-size: 11pt;
+  text-transform: uppercase;
+}
+footer.footer div.content div.footer_column img.small_logo {
+  opacity: 85%;
+  width: 100px;
 }/*# sourceMappingURL=footer.css.map */
