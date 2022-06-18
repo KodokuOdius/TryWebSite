@@ -1,18 +1,22 @@
 header.header {
-  background-color: bisque;
+  background: url("../img/head.png") no-repeat;
+  background-size: cover;
   align-items: center;
   padding-inline: 10vw;
 }
 header.header div.head {
+  width: 100%;
   display: flex;
+  flex-direction: row;
   align-items: center;
   justify-content: space-around;
+  color: #f3f3f3;
 }
 header.header div.head div.logo_img {
-  margin: 10px 0 0px 0;
+  margin: 10px 0 0 0;
 }
 header.header div.head div.logo_img img.logo {
-  width: 150px;
+  width: 120px;
   height: -webkit-min-content;
   height: -moz-min-content;
   height: min-content;
@@ -24,19 +28,18 @@ header.header div.head ul.inner_navigate {
   display: flex;
 }
 header.header div.head ul.inner_navigate li.nav_link {
-  padding: 10px;
-  padding-inline: 15px;
+  padding: 10px 15px;
 }
 header.header div.head ul.inner_navigate li.nav_link a.link {
-  text-decoration: none;
-  color: black;
+  font-size: 16pt;
+  text-transform: uppercase;
 }
 header.header div.head ul.inner_navigate li.nav_link + li.nav_link {
   margin-left: 15px;
 }
 header.header div.head ul.inner_navigate li.nav_link:hover {
   background-color: black;
-  display: block;
+  border-radius: 15px;
 }
 header.header div.head ul.inner_navigate li.nav_link:hover a.link {
   color: white;
