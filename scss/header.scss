@@ -1,16 +1,17 @@
-
 header.header {
     background: url("../img/head.png") no-repeat;
     background-size: cover;
     align-items: center;
     padding-inline: 10vw;
 
+    border-bottom: 2px solid #f3f3f3;
+
     div.head {
         width: 100%;
         display: flex;
         flex-direction: row;
         align-items: center;
-        justify-content: space-around;
+        justify-content: space-between;
         color: #f3f3f3;
 
         // flex-wrap: wrap;
@@ -27,12 +28,12 @@ header.header {
         }
 
         ul.inner_navigate {
-            list-style-type: none;
-            padding-left: 0;
             display: flex;
+            flex-direction: row;
 
             li.nav_link {
-                padding: 10px 15px;
+                padding: 15px;
+                padding-bottom: 10px;
 
                 a.link {
                     font-size: 16pt;
@@ -40,28 +41,43 @@ header.header {
                 }
             }
 
-            li.nav_link + li.nav_link {
+            li.nav_link+li.nav_link {
                 margin-left: 15px;
             }
 
             li.nav_link:hover {
-                background-color: black;
-                border-radius: 15px;
+                border-radius: 10px;
+                background-color: #f3f3f3;
 
                 a.link {
-                    color: white;
+                    color: #131313;
                 }
             }
 
         }
 
         div.search {
+            margin-bottom: 10px;
+            border-left: 2px solid;
+            align-items: center;
+            padding: 10px 0px 10px 15px;
+            display: flex;
+
             input.to_search {
-                width: 120px;
+                width: 128px;
                 border-radius: 5px;
+                padding-top: 5px;
+            }
+
+            button.make_search {
+                margin-left: 3px;
+                background-color: rgba($color: #000000, $alpha: 0.5);
+                border: 1px solid;
+                border-radius: 5px;
+                padding-top: 5px;
+                letter-spacing: 3px;
+                color: #f3f3f3;
             }
         }
-
     }
-
 }

@@ -19,13 +19,28 @@ body {
 a {
     text-decoration: none;
     color: inherit;
+    margin: 0;
+    padding: 0;
 }
 
 ul {
     list-style-type: none;
     padding-left: 0;
 }
-
-h1,h2,h3,h4,h5,h6 {
+p {
     margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+i.moto {
+    content: url("../img/moto-inline.png");
+    height: 25px;
 }

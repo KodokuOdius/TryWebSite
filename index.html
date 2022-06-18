@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/slick.css">
     <link rel="stylesheet" href="./css/header.css">
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/footer.css">
@@ -53,7 +54,9 @@
             </nav>
 
             <div class="search">
-                <input type="text" class="to_search">
+                <div class="inner_search">
+                    <input type="text" class="to_search">
+                </div>
                 <button class="make_search">
                     Найти
                 </button>
@@ -63,9 +66,52 @@
     </header>
 
     <main class="main">
-        <p>
-            content
-        </p>
+        <div class="slider_content">
+            <div class="present">
+                <h1 class="title">
+                    <i class="moto"></i>
+                    MotoSite
+                    <i class="moto"></i>
+                </h1>
+                <p class="present_text">
+                    Вы предоставляем услуги наивысшего качества
+                </p>
+                <p class="present_text">
+                    Здесь вы сможете выбрать качественный <b>мотоцикл</b>
+                </p>
+                <p class="present_text">
+                    Наши магазины есть по всей России. Там вы сможете не только купить, но и заказть ремонт совего байка
+                </p>
+            </div>
+            <div class="main_slider">
+
+                <div class="slider_img">
+                    <img src="./img/slider/slider1.jpeg" alt="" class="slidered">
+                    <p class="img_text">
+                        Выбирай сердем, оно поможет сделать правильный выбор
+                    </p>
+                </div>
+                <div class="slider_img">
+                    <img src="./img/slider/slider2.jpg" alt="" class="slidered">
+                    <p class="img_text">
+                        Запомни: Рёв мотора не спасёт от всех проблем, но это расслабляет
+                    </p>
+                </div>
+                <div class="slider_img">
+                    <img src="./img/slider/slider3.png" alt="" class="slidered">
+                    <p class="img_text">
+                        Будь осторожен на дороге, но опасен как зверь
+                    </p>
+                </div>
+                <div class="slider_img">
+                    <img src="./img/slider/slider4.jpeg" alt="" class="slidered">
+                    <p class="img_text">
+                        Настоящий друг поддержит тебя во всём, прям как твой байк
+                    </p>
+                </div>
+            </div>
+        </div>
+
     </main>
 
 
@@ -149,6 +195,11 @@
         </div>
     </footer>
 
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="./js/slick.min.js"></script>
+    <script src="./js/main.js"></script>
 </body>
 
 </html>
