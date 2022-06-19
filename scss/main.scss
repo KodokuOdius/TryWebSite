@@ -1,9 +1,5 @@
-
-
 main.main {
-    flex: 1 1 auto;
     color: #131313;
-    // height: 2500px;
 
     div.slider_content {
         max-height: 500px;
@@ -24,6 +20,7 @@ main.main {
             font-size: 40pt;
             margin-bottom: 20px;
         }
+
         i.moto {
             filter: invert(1);
             height: 35px;
@@ -35,7 +32,7 @@ main.main {
             margin-bottom: 15px;
             top: 0;
         }
-        
+
 
     }
 
@@ -67,6 +64,7 @@ main.main {
                 border-bottom: 2px solid;
                 color: #aaaaaa;
             }
+
             p.img_text::before {
                 content: "©";
                 border: none;
@@ -93,5 +91,188 @@ main.main {
             right: 0;
             // top: 50%;
         }
+    }
+
+    div.motobikes {
+        margin-top: 120px;
+        text-align: center;
+
+        h1.moto_title {
+            text-align: center;
+            margin-inline: 150px;
+            padding: 10px 25px 0 25px;
+            border-top: 3px solid;
+        }
+
+        h2.add {
+            border-top: 4px solid;
+            padding-top: 7px;
+        }
+
+        p.add_text {
+            font-weight: bold;
+            letter-spacing: 4px;
+            text-transform: uppercase;
+            background-color: #aaaaaa;
+            padding: 10px 0;
+        }
+    }
+
+    div.long_slider {
+        max-height: 250px;
+        align-items: center;
+
+        div.long_slider_img {
+            background-color: #131313;
+            padding: 10px 0;
+            box-shadow: 0px 0px 40px 40px #131313;
+        }
+
+        img.long_slidered {
+            width: inherit;
+            height: 150px;
+            padding-inline: 10px;
+            border-radius: 50px;
+        }
+    }
+
+    div.filials {
+        width: 100%;
+        margin-top: 200px;
+
+        h1.title {
+            text-align: center;
+            margin-inline: 95px;
+            border-top: 3px solid;
+            padding-top: 15px;
+        }
+
+        div.filials_container {
+            display: flex;
+            flex-direction: row;
+            padding-inline: 50px;
+            align-items: center;
+        }
+
+        div.filials_map {
+            margin-inline: 10px;
+
+            img.map {
+                max-width: 550px;
+            }
+        }
+
+        ul.map_desc {
+            display: flex;
+            flex-direction: column;
+
+
+            li.description {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                border: 3px solid;
+                border-top: none;
+            }
+            li.description:nth-child(even) {
+                border-left: none;
+                border-right: none;
+                h3.add_desc {
+                    border: none;
+                }
+            }
+
+            h2.desc_title {
+                width: 50%;
+                padding-top: 15px;
+                padding-left: 10px;
+            }
+
+            h3.add_desc {
+                padding-top: 15px;
+                border-left: 3px dashed;
+                width: 50%;
+
+                display: flex;
+                text-align: center;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+    }
+
+    div.characteristics {
+        margin-top: 200px;
+
+        h1.title {
+            text-align: center;
+            margin-inline: 95px;
+            border-top: 3px solid;
+            padding-top: 15px;
+            margin-bottom: 17px;
+        }
+    }
+
+    div.characteristic {
+        display: flex;
+        flex-direction: row;
+        margin-inline: 80px;
+        justify-content: space-between;
+
+        img.inner_charsct {
+            width: 35%;
+            margin-inline: 50px;
+            border-radius: 15px;
+        }
+        h2.char_desc {
+            width: 50%;
+        }
+
+        h2.char_desc {
+            display: flex;
+            align-items: center;
+            text-align: right;
+
+            padding-inline: 15px;
+        }
+    }
+
+    div.characteristic:nth-child(even) {
+        flex-direction: row-reverse;
+
+        h2.char_desc {
+            text-align: left;
+            border-right: 5px solid;
+        }
+    }
+
+    div.motorace {
+        margin-top: 200px;
+
+        h1.title {
+            text-align: center;
+            margin-inline: 95px;
+            border-top: 3px solid;
+            padding-top: 15px;
+            margin-bottom: 15px;
+        }
+
+        div.video_container {
+            text-align: center;
+
+            p.add_text {
+                margin: 0 auto;
+                width: fit-content;
+                font-weight: bold;
+                margin-top: 10px;
+                letter-spacing: 4px;
+                text-transform: uppercase;
+                border-bottom: 2px solid;
+                padding-inline: 50px;
+                padding-bottom: 10px;
+            }
+        }
+
+
     }
 }

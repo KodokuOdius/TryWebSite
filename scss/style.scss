@@ -16,6 +16,14 @@ body {
     min-height: 100%;
 }
 
+main {
+    flex: 1 1 auto;
+    background: url("../img/bg.png") no-repeat fixed;
+    background-size: cover;
+
+    padding-bottom: 70px;
+}
+
 a {
     text-decoration: none;
     color: inherit;
@@ -43,4 +51,11 @@ h6 {
 i.moto {
     content: url("../img/moto-inline.png");
     height: 25px;
+}
+
+.green {
+    color: green;
+}
+.red {
+    color: red;
 }
