@@ -1,0 +1,79 @@
+main.main div.company_container {
+  margin-top: 75px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-inline: 120px;
+}
+main.main div.company_container div.company_desc h1.company_title {
+  border-top: 3px solid;
+  padding-top: 5px;
+  padding-inline: 15px;
+}
+main.main div.company_container div.company_desc h2.add {
+  padding-top: 5px;
+  background-color: #aaaaaa;
+}
+main.main div.company_container div.company_map {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+}
+main.main div.company_container div.company_map .map {
+  border-radius: 15px;
+  width: 50%;
+}
+main.main div.company_container div.company_map ul.company {
+  margin-left: 25px;
+  width: 45%;
+}
+main.main div.company_container div.company_map ul.company hr.desc_sep {
+  height: 12px;
+}
+main.main div.company_container div.company_map ul.company li.desc {
+  text-align: left;
+  font-size: 16pt;
+  font-weight: 600;
+  border-left: 3px solid;
+  padding-left: 5px;
+  padding-top: 10px;
+}
+main.main div.company_container div.add_desc {
+  margin-top: 125px;
+}
+main.main div.company_container div.add_desc h1.add_title {
+  border-top: 3px solid;
+  padding-top: 5px;
+  padding-inline: 15px;
+}
+main.main div.company_container div.add_desc ul.add_company {
+  border: 3px solid;
+  border-top: none;
+  padding: 15px;
+  align-items: center;
+  margin-inline: 100px;
+}
+main.main div.company_container div.add_desc ul.add_company hr.add_sep {
+  margin: 15px 0;
+  height: 10px;
+  border-radius: 10px;
+}
+main.main div.company_container div.add_desc li.add_desc {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+}
+main.main div.company_container div.add_desc li.add_desc h3.add_desc_text {
+  text-align: left;
+  font-size: 16pt;
+  margin: 2px;
+  padding: 10px 5px 0;
+  text-transform: uppercase;
+  border-right: 3px dashed;
+}
+main.main div.company_container div.add_desc li.add_desc h3.add_desc_text:nth-of-type(odd) {
+  text-align: right;
+  border-left: 3px dashed;
+  border-right: none;
+}/*# sourceMappingURL=company.css.map */

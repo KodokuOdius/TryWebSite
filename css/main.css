@@ -1,7 +1,4 @@
 @charset "UTF-8";
-main.main {
-  color: #131313;
-}
 main.main div.slider_content {
   max-height: 500px;
 }

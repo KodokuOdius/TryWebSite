@@ -1,0 +1,84 @@
+@charset "UTF-8";
+main.main div.review_container {
+  margin-top: 75px;
+  text-align: center;
+}
+main.main div.review_container h1.review_title {
+  margin-inline: 75px;
+  border-top: 3px solid;
+  padding: 10px 25px 0;
+}
+main.main div.review_container h2.add {
+  font-style: italic;
+}
+main.main ul.reviews {
+  margin-top: 75px;
+  margin-inline: 150px;
+}
+main.main ul.reviews hr.feed_sep {
+  margin: 15px -140px;
+  height: 100px;
+  border-radius: 15px;
+}
+main.main ul.reviews li.review {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  border-top: 3px dashed;
+  border-bottom: 3px dashed;
+}
+main.main ul.reviews li.review div.person {
+  padding-top: 12px;
+  min-width: 50%;
+  border: 5px solid;
+  border-radius: 10px;
+}
+main.main ul.reviews li.review div.person img.person_face {
+  height: 150px;
+  border-radius: 50px;
+}
+main.main ul.reviews li.review div.person div.name_content {
+  max-width: 85%;
+  margin: 0 auto;
+}
+main.main ul.reviews li.review div.person div.name_content h3.name {
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  border-bottom: 2px solid;
+}
+main.main ul.reviews li.review div.person div.name_content h4.prof {
+  padding-top: 3px;
+  background-color: #aaaaaa;
+}
+main.main ul.reviews li.review div.feedback {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 45%;
+  font-size: 16pt;
+  padding: 10px 15px;
+  font-weight: 600;
+  min-height: 250px;
+}
+main.main ul.reviews li.review div.feedback div.content {
+  text-align: justify;
+}
+main.main ul.reviews li.review div.feedback div.grade {
+  font-weight: bolder;
+  text-align: center;
+  padding-top: 5px;
+  text-align: left;
+  background-color: #f3f3f3;
+  border-radius: 10px;
+  padding-inline: 5px;
+}
+main.main ul.reviews li.review div.feedback div.grade::after {
+  content: "✦";
+}
+main.main ul.reviews li.review:nth-of-type(odd) {
+  flex-direction: row-reverse;
+}
+main.main ul.reviews li.review:nth-of-type(odd) div.feedback div.grade {
+  text-align: right;
+}/*# sourceMappingURL=review.css.map */

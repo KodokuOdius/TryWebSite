@@ -1,0 +1,103 @@
+
+main.main {
+
+    div.order_container {
+        margin-top: 75px;
+        text-align: center;
+
+        h1.order_title {
+            border-top: 3px solid;
+            margin-inline: 75px;
+            padding: 15px 25px 10px;
+        }
+        h2.add {
+            margin-bottom: 35px;
+            margin-inline: 200px;
+            padding-inline: 50px;
+            word-spacing: 5px;
+            font-style: oblique;
+        }
+    }
+
+    div.order {
+        margin-top: 50px;
+        form.order_form {
+            margin-inline: 200px;
+            padding: 15px 45px;
+            border-right: 3px dashed;
+            border-left: 3px dashed;
+
+            button.send_order {
+                margin-top: 35px;
+                border-radius: 15px;
+                padding: 10px 25px;
+                font-size: 15pt;
+                text-transform: uppercase;
+                font-weight: 400;
+            }
+            button.send_order:hover {
+                background-color: #131313;
+                color: #f3f3f3;
+            }
+
+            hr.option_sep {
+                height: 10px;
+            }
+        }
+
+        ul.order_options {
+
+            li.option + li.option {
+                margin-top: 15px;
+            }
+
+            li.option {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                padding-inline: 25px;
+
+                h3.select_text {
+                    border-left: 4px groove; 
+                    // border-style: groove;
+                    padding-left: 15px;
+                    padding-top: 5px;
+                    width: 50%;
+                    text-align: left;
+                    display: flex;
+                    align-items: center;
+                    font-size: 16pt;
+                }
+                textarea.dreams {
+                    resize: none;
+                    border-radius: 5px;
+                    width: 45%;
+                }
+
+                input {
+                    width: 45%;
+                    border-radius: 5px;
+                }
+                input.bike_name {
+                    text-transform: uppercase;
+                    text-align: center;
+                }
+                input.email {
+                    text-align: right;
+                }
+                select.selection {
+                    text-align: center;
+                    text-transform: uppercase;
+                    letter-spacing: 2px;
+                    font-weight: bold;
+                    border-radius: 5px;
+                    width: 45%;
+                }
+                option.selected {
+                    font-weight: bold;
+                    border-radius: 5px;
+                }
+            }
+        }
+    }
+}

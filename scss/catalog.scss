@@ -1,0 +1,82 @@
+main.main {
+
+    div.catalog_container {
+        margin-top: 75px;
+        text-align: center;
+        margin-inline: 25px;
+
+        h1.catalog_title {
+            border-top: 3px solid;
+            padding-inline: 25px;
+            padding-top: 5px;
+            margin-inline: 75px;
+        }
+
+        h2.add {
+            margin: 5px 125px 15px;
+            border-left: 3px dashed;
+            border-right: 3px dashed;
+            padding-top: 5px;
+            padding-inline: 10px;
+        }
+
+        // div.moto_slider {}
+
+        // div.halmet_slider {}
+
+        // div.attr_clider {}
+
+        div.catalog_slider {
+            text-align: center;
+            margin-top: 75px;
+            display: flex;
+            // justify-content: center;
+            // height: fit-content;
+            // width: 100%;
+        }
+
+        div.inner_buy {
+            padding-inline: 15px;
+            max-width: 500px;
+            min-width: 500px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+
+            img.product {
+                height: 250px;
+                border-radius: 15px;
+            }
+
+            div.desc {
+
+                h3.bike {
+                    text-transform: uppercase;
+                    margin-inline: 35px;
+                    margin-top: 7px;
+                }
+                p.price {
+                    font-weight: 600;
+                }
+
+                p.price::after {
+                    content: "\20BD\20BD";
+                }
+            }
+
+            button.buy {
+                font-size: 14pt;
+                font-weight: bold;
+                width: 75%;
+                letter-spacing: 3px;
+                border-radius: 5px;
+                padding-top: 5px;
+            }
+        }
+
+
+        // div.add_buy_info {}
+
+    }
+}

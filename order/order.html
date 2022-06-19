@@ -7,8 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/header.css">
-    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/order.css">
     <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+        integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
+
     <title>MotoSite</title>
 </head>
 
@@ -58,17 +62,183 @@
     </header>
 
     <main class="main">
-        <p>
-            content
-        </p>
+        <div class="order_container">
+            <h1 class="order_title">
+                Предоставляем вам возможноть закать, без калькулятора, у нас кастомный мотоцикл под ваши рпедпочтения
+            </h1>
+            <h2 class="add">
+                Можете попробовать что-либо соорудить самостоятельно вы вам поможем с этим тоже как-нибудь
+            </h2>
+
+            <div class="order">
+                <form action="" method="post" class="order_form">
+                    <ul class="order_options">
+                        <li class="option">
+                            <h3 class="select_text">
+                                Выберите модель
+                            </h3>
+                            <select name="model" id="1" class="selection">
+                                <option value="Suzuki" class="selected">Suzuki</option>
+                                <option value="Kawasali" class="selected">Kawasaki</option>
+                                <option value="Samsung" class="selected">Samsung</option>
+                            </select>
+                        </li>
+                        <hr class="option_sep">
+
+                        <li class="option">
+                            <h3 class="select_text">
+                                Выберите цвет
+                            </h3>
+                            <select name="color" id="2" class="selection">
+                                <option value="Red" class="selected">Red</option>
+                                <option value="Black" class="selected">Black</option>
+                                <option value="Gray" class="selected">Gray</option>
+                                <option value="Gradient" class="selected">Gradient</option>
+                            </select>
+                            
+                        </li>
+                        <hr class="option_sep">
+
+                        <li class="option">
+                            <h3 class="select_text">
+                                Впишите имя своему байку
+                            </h3>
+                            <input type="text" class="bike_name">
+                            
+                        </li>
+                        <hr class="option_sep">
+
+                        <li class="option">
+                            <h3 class="select_text">
+                                Выберите форму дисков на колёса
+                            </h3>
+                            <select name="disk" id="3" class="selection">
+                                <option value="Bicycle" class="selected">Как на велосипеде</option>
+                                <option value="Cool" class="selected">Крутые</option>
+                                <option value="Cool_les" class="selected">Менее крутые</option>
+                                <option value="Oil" class="selected">Смазанные</option>
+                                <option value="Tree" class="selected">Деревянные</option>
+                            </select>
+                        </li>
+                        <hr class="option_sep">
+
+                        <li class="option">
+                            <h3 class="select_text">
+                                Ответь на вопрос:
+                            </h3>
+                            <select name="question" id="" class="selection">
+                                <option value="Yes" class="selected">Нет</option>
+                                <option value="No" class="selected">Да</option>
+                            </select>
+                        </li>
+                        <hr class="option_sep">
+
+                        <li class="option">
+                            <h3 class="select_text">
+                                Впишите свои пожелания
+                            </h3>
+                            <textarea name="dreams" id="" cols="30" rows="3" class="dreams"></textarea>
+                        </li>
+                        <hr class="option_sep">
+
+                        <li class="option">
+                            <h3 class="select_text">
+                                Добавьте свой номер телефона/email адресс для свзяи
+                            </h3>
+                            <input type="text" class="email">
+                        </li>
+                    </ul>
+
+                    <button class="send_order">
+                        Начать произдводство
+                    </button>
+                </form>
+            </div>
+
+        </div>
     </main>
 
 
     <footer class="footer">
-        <p>
-            content
-        </p>
+        <div class="content">
+            <div class="footer_column">
+                <div class="logo_img">
+                    <img src="../img/logo.png" alt="" class="small_logo">
+                </div>
+
+                <p class="text">
+                    Наша компания супер крутая и предлагает услуги аренды/покупки супер крутых, как мой сайт, мотоциклов
+                </p>
+                <p class="text">
+                    © Авторское право сайта защищенно специальным значком
+                </p>
+
+            </div>
+            <div class="footer_column">
+                <h4 class="footer_title">Наши социальные сети</h4>
+                <ul class="society">
+                    <li class="soc_link">
+                        <p class="desc">Мы в ВКонтакте</p>
+                        <a href="#" class="link">
+                            <i class="fab fa-vk"></i>
+                        </a>
+                    </li>
+                    <li class="soc_link">
+                        <p class="desc">Наше лицо</p>
+                        <a href="#" class="link">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                    </li>
+                    <li class="soc_link">
+                        <p class="desc">Свежая информация</p>
+                        <a href="#" class="link"><i class="fab fa-telegram-plane"></i></a>
+                    </li>
+                    <li class="soc_link">
+                        <p class="desc">Наши обзоры</p>
+                        <a href="#" class="link"><i class="fab fa-youtube"></i></a>
+                    </li>
+                    <li class="soc_link">
+                        <p class="desc">Крутые фотки</p>
+                        <a href="#" class="link"><i class="fab fa-instagram"></i></a>
+                    </li>
+                    <li class="soc_link">
+                        <p class="desc">Душевные посты</p>
+                        <a href="#" class="link"><i class="fab fa-twitter"></i></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer_column">
+                <h4 class="footer_title">Наши Партнёры</h4>
+                <ul class="friends">
+                    <li class="friend">
+                        <h6>Друг 0</h6>
+                        <a href="#" class="link">Сcылка на друга</a>
+                    </li>
+                    <li class="friend">
+                        <h6>Друг 1</h6>
+                        <a href="#" class="link">Сcылка на друга</a>
+                    </li>
+                    <li class="friend">
+                        <h6>Друг 2</h6>
+                        <a href="#" class="link">Сcылка на друга</a>
+                    </li>
+                    <li class="friend">
+                        <h6>Друг 3</h6>
+                        <a href="#" class="link">Сcылка на друга</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer_column">
+                <h4 class="footer_title">Contact us</h4>
+                <input type="text" class="email" placeholder="example@ex.com">
+                <a href="#" class="send_email">
+                    Написать письмо
+                </a>
+            </div>
+
+        </div>
     </footer>
+
 
 </body>
 
