@@ -27,6 +27,7 @@ footer.footer div.content div.footer_column h4.footer_title {
 footer.footer div.content div.footer_column img.small_logo {
   opacity: 85%;
   width: 100px;
+  height: auto;
   border-radius: 10px;
 }
 footer.footer div.content div.footer_column p.text {

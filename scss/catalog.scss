@@ -19,26 +19,44 @@ main.main {
             padding-top: 5px;
             padding-inline: 10px;
         }
-
         // div.moto_slider {}
 
         // div.halmet_slider {}
 
         // div.attr_clider {}
 
+        h3.slider_title {
+            margin: 0 auto;
+            margin-top: 75px;
+            margin-bottom: 5px;
+            font-size: 18pt;
+            font-weight: bolder;
+            letter-spacing: 2px;
+            text-align: center;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            border: 2px solid;
+            padding-top: 5px;
+            margin-inline: 22vw;
+            border-radius: 5px;
+            
+        }
+
         div.catalog_slider {
+            margin: 0 auto;
             padding: 25px 0;
             text-align: center;
-            margin-top: 75px;
             margin-inline: 15vw;
             display: flex;
-            background-color: #aaaaaa;
+            flex-direction: row;
+            background-color: #aaaaa0;
             border-radius: 15px;
             // height: fit-content;
             justify-content: center;
-            align-items: center;
-            // width: 100%;
-
+            // align-items: center;
 
 
             .slick-arrow {
@@ -50,13 +68,13 @@ main.main {
         }
 
         div.inner_buy {
+            padding-inline: 10vw;
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: space-between;
-            padding-inline: 10vw;
-            position: relative;
-            height: 100%;
+            
+
 
             img.product {
                 height: 25vw;
@@ -92,13 +110,19 @@ main.main {
             }
 
             button.buy {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                padding-top: 1vh;
                 font-size: 1.5vw;
+                margin-top: 5px;
                 // font-size: 14pt;
                 font-weight: bold;
                 width: 30vw;
                 letter-spacing: 3px;
                 border-radius: 5px;
-                padding-top: 2vh;
             }
         }
 
