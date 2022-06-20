@@ -46,6 +46,7 @@ main.main div.main_slider div.slider_img p.img_text {
   z-index: 1;
   margin-top: 450px;
   margin-left: 20px;
+  max-width: 75vw;
   font-size: 14pt;
   letter-spacing: 5px;
   border-bottom: 2px solid;
@@ -100,7 +101,7 @@ main.main div.long_slider div.long_slider_img {
 }
 main.main div.long_slider img.long_slidered {
   width: inherit;
-  height: 150px;
+  height: 10vw;
   padding-inline: 10px;
   border-radius: 50px;
 }

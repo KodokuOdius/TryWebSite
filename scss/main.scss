@@ -57,6 +57,8 @@ main.main {
                 margin-top: 450px;
                 margin-left: 20px;
 
+                max-width: 75vw;
+
                 font-size: 14pt;
                 letter-spacing: 5px;
                 border-bottom: 2px solid;
@@ -128,7 +130,7 @@ main.main {
 
         img.long_slidered {
             width: inherit;
-            height: 150px;
+            height: 10vw;
             padding-inline: 10px;
             border-radius: 50px;
         }

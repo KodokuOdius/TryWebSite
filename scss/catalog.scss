@@ -27,36 +27,62 @@ main.main {
         // div.attr_clider {}
 
         div.catalog_slider {
+            padding: 25px 0;
             text-align: center;
             margin-top: 75px;
+            margin-inline: 15vw;
             display: flex;
-            // justify-content: center;
+            background-color: #aaaaaa;
+            border-radius: 15px;
             // height: fit-content;
+            justify-content: center;
+            align-items: center;
             // width: 100%;
+
+
+
+            .slick-arrow {
+                opacity: 0.8;
+                border: none;
+                background: none;
+                font-size: 10vw;
+            }
         }
 
         div.inner_buy {
-            padding-inline: 15px;
-            max-width: 500px;
-            min-width: 500px;
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: space-between;
+            padding-inline: 10vw;
+            position: relative;
+            height: 100%;
 
             img.product {
-                height: 250px;
+                height: 25vw;
                 border-radius: 15px;
             }
 
             div.desc {
-
+                padding: 10px 0;
+                // font-size: 1.5vw;
                 h3.bike {
+                    // text-align: center;
+                    font-size: 1.4vw;
                     text-transform: uppercase;
-                    margin-inline: 35px;
+                    padding-top: 5px;
+                    padding-inline: 3vw;
                     margin-top: 7px;
+                    border-left: 3px solid;
+                    border-right: 3px solid;
                 }
                 p.price {
+                    font-size: 1.3vw;
+                    margin: 0 auto;
+                    padding-top: 5px;
+                    width: fit-content;
+                    border-top: 3px dashed;
+                    margin-top: 10px;
                     font-weight: 600;
                 }
 
@@ -66,12 +92,13 @@ main.main {
             }
 
             button.buy {
-                font-size: 14pt;
+                font-size: 1.5vw;
+                // font-size: 14pt;
                 font-weight: bold;
-                width: 75%;
+                width: 30vw;
                 letter-spacing: 3px;
                 border-radius: 5px;
-                padding-top: 5px;
+                padding-top: 2vh;
             }
         }
 
