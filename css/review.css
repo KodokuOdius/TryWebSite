@@ -84,13 +84,16 @@ main.main ul.reviews li.review:nth-of-type(odd) div.feedback div.grade {
 }
 
 @media screen and (min-width: 1500px) {
+  main.main ul.reviews {
+    margin-inline: 25px !important;
+  }
   li.review {
     font-size: 20pt;
   }
 
   div.feedback {
     width: 85% !important;
-    height: 360px;
+    min-height: 360px;
   }
   div.feedback div.content {
     font-size: 24pt;
