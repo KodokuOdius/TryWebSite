@@ -131,3 +131,9 @@ header.header div.hidden_nav nav.dropdown ul.menu a.drop_link:hover {
     display: block;
   }
 }/*# sourceMappingURL=header.css.map */
+
+@media screen and (max-width: 700px) {
+  header.header div.hidden_nav nav.dropdown ul.menu {
+    flex-direction: column !important;
+  }
+}
