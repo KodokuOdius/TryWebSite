@@ -63,4 +63,38 @@ header.header div.head div.search button.make_search {
   padding-top: 5px;
   letter-spacing: 3px;
   color: #f3f3f3;
+}
+header.header div.head div.burger {
+  padding: 0 0 10px 0;
+  display: none;
+}
+header.header div.head div.burger ul.menu {
+  width: 30px;
+}
+header.header div.head div.burger ul.menu li.line + li.line {
+  margin-top: 5px;
+}
+header.header div.head div.burger ul.menu li.line {
+  margin: 0 auto;
+  border: 2px solid #f3f3f3;
+  border-radius: 25px;
+}
+
+@media screen and (max-width: 1100px) {
+  header.header div.head ul.inner_navigate {
+    display: none;
+  }
+  header.header div.head div.search {
+    border: none;
+    padding-inline: 0;
+    min-width: 125px;
+    padding: 10px 0;
+    margin-inline: 15px;
+  }
+  header.header div.head div.search input.to_search {
+    width: 100%;
+  }
+  header.header div.head div.burger {
+    display: block;
+  }
 }/*# sourceMappingURL=header.css.map */

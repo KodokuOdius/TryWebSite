@@ -8,10 +8,10 @@ main.main div.catalog_container h1.catalog_title {
   border-top: 3px solid;
   padding-inline: 25px;
   padding-top: 5px;
-  margin-inline: 75px;
+  margin-inline: 6vw;
 }
 main.main div.catalog_container h2.add {
-  margin: 5px 125px 15px;
+  margin: 5px 12vw 15px;
   border-left: 3px dashed;
   border-right: 3px dashed;
   padding-top: 5px;
@@ -100,4 +100,33 @@ main.main div.catalog_container div.inner_buy button.buy {
   width: 30vw;
   letter-spacing: 3px;
   border-radius: 5px;
+}
+
+@media screen and (max-width: 700px) {
+  div.catalog_container .slick-arrow {
+    font-size: 45pt !important;
+  }
+  div.catalog_container h1.catalog_title {
+    text-align: justify;
+    font-size: 18pt;
+  }
+  div.catalog_container h3.slider_title {
+    margin-inline: 35px !important;
+  }
+  div.catalog_container div.catalog_slider {
+    margin-inline: 15px !important;
+  }
+  div.catalog_container div.inner_buy img.product {
+    height: 150px !important;
+  }
+  div.catalog_container div.inner_buy div.desc h3.bike {
+    font-size: 12pt !important;
+    padding-inline: 3px !important;
+  }
+  div.catalog_container div.inner_buy div.desc p.price {
+    font-size: 10pt !important;
+  }
+  div.catalog_container div.inner_buy button.buy {
+    font-size: 12pt !important;
+  }
 }/*# sourceMappingURL=catalog.css.map */

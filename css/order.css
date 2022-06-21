@@ -4,12 +4,12 @@ main.main div.order_container {
 }
 main.main div.order_container h1.order_title {
   border-top: 3px solid;
-  margin-inline: 75px;
+  margin-inline: 7vw;
   padding: 15px 25px 10px;
 }
 main.main div.order_container h2.add {
   margin-bottom: 35px;
-  margin-inline: 200px;
+  margin-inline: 16vw;
   padding-inline: 50px;
   word-spacing: 5px;
   font-style: oblique;
@@ -18,8 +18,8 @@ main.main div.order {
   margin-top: 50px;
 }
 main.main div.order form.order_form {
-  margin-inline: 200px;
-  padding: 15px 45px;
+  margin-inline: 16vw;
+  padding: 15px 3vw;
   border-right: 3px dashed;
   border-left: 3px dashed;
 }
@@ -45,7 +45,7 @@ main.main div.order ul.order_options li.option {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding-inline: 25px;
+  padding-inline: 2vw;
 }
 main.main div.order ul.order_options li.option h3.select_text {
   border-left: 4px groove;
@@ -84,4 +84,23 @@ main.main div.order ul.order_options li.option select.selection {
 main.main div.order ul.order_options li.option option.selected {
   font-weight: bold;
   border-radius: 5px;
+}
+
+@media screen and (max-width: 700px) {
+  h1.order_title {
+    text-align: justify;
+  }
+
+  h2.add {
+    text-align: justify;
+  }
+}
+@media screen and (max-width: 600px) {
+  form.order_form {
+    margin-inline: 16px !important;
+  }
+
+  h2.add {
+    margin-inline: 15px !important;
+  }
 }/*# sourceMappingURL=order.css.map */

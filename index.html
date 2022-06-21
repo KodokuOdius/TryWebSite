@@ -35,7 +35,7 @@
                     </li>
                     <li class="nav_link">
                         <a href="./company/company.html" class="link">
-                            О Компании
+                            Компания
                         </a>
                     </li>
                     <li class="nav_link">
@@ -43,7 +43,6 @@
                             Отзывы
                         </a>
                     </li>
-
                     <li class="nav_link">
                         <a href="./order/order.html" class="link">
                             Заказать
@@ -61,7 +60,40 @@
                 </button>
             </div>
 
+            <div class="burger">
+                <ul class="menu">
+                    <li class="line"></li>
+                    <li class="line"></li>
+                    <li class="line"></li>
+                </ul>
+            </div>
         </div>
+        <!-- <div class="hidden_nav">
+            <nav class="dropdown">
+                <ul class="menu">
+                    <li class="item">
+                        <a href="./catalog/catalog.html" class="link">
+                            Каталог
+                        </a>
+                    </li>
+                    <li class="item">
+                        <a href="./company/company.html" class="link">
+                            Компания
+                        </a>
+                    </li>
+                    <li class="item">
+                        <a href="./review/review.html" class="link">
+                            Отзывы
+                        </a>
+                    </li>
+                    <li class="item">
+                        <a href="./order/order.html" class="link">
+                            Заказать
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div> -->
     </header>
 
     <main class="main">
@@ -254,8 +286,18 @@
             </h1>
 
             <div class="video_container">
+                <iframe width="1350" height="800" src="https://www.youtube.com/embed/l4WBCwFfojY" frameborder="0"
+                    allowfullscreen class="big"
+                    style="display: none;">
+                </iframe>
+
                 <iframe width="600" height="350" src="https://www.youtube.com/embed/l4WBCwFfojY" frameborder="0"
-                    allowfullscreen>
+                    allowfullscreen class="video">
+                </iframe>
+
+                <iframe width="430" height="220" src="https://www.youtube.com/embed/l4WBCwFfojY" frameborder="0"
+                    allowfullscreen class="small"
+                    style="display: none;">
                 </iframe>
 
                 <p class="add_text">
@@ -264,10 +306,6 @@
             </div>
 
         </div>
-
-
-
-
     </main>
 
 
@@ -344,7 +382,8 @@
                 <h4 class="footer_title">Contact us</h4>
                 <input type="text" class="email" placeholder="example@ex.com">
                 <a href="#" class="send_email">
-                    Написать письмо
+                    <span class="big_text">Написать письмо</span>
+                    <span class="small_text" style="display: none;">@@@</span>
                 </a>
             </div>
 

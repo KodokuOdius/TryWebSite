@@ -9,16 +9,17 @@ main.main {
             border-top: 3px solid;
             padding-inline: 25px;
             padding-top: 5px;
-            margin-inline: 75px;
+            margin-inline: 6vw;
         }
 
         h2.add {
-            margin: 5px 125px 15px;
+            margin: 5px 12vw 15px;
             border-left: 3px dashed;
             border-right: 3px dashed;
             padding-top: 5px;
             padding-inline: 10px;
         }
+
         // div.moto_slider {}
 
         // div.halmet_slider {}
@@ -42,7 +43,7 @@ main.main {
             padding-top: 5px;
             margin-inline: 22vw;
             border-radius: 5px;
-            
+
         }
 
         div.catalog_slider {
@@ -73,7 +74,7 @@ main.main {
             flex-direction: column;
             align-items: center;
             justify-content: space-between;
-            
+
 
 
             img.product {
@@ -83,6 +84,7 @@ main.main {
 
             div.desc {
                 padding: 10px 0;
+
                 // font-size: 1.5vw;
                 h3.bike {
                     // text-align: center;
@@ -94,6 +96,7 @@ main.main {
                     border-left: 3px solid;
                     border-right: 3px solid;
                 }
+
                 p.price {
                     font-size: 1.3vw;
                     margin: 0 auto;
@@ -129,5 +132,50 @@ main.main {
 
         // div.add_buy_info {}
 
+    }
+}
+
+
+@media screen and (max-width: 700px) {
+    div.catalog_container {
+
+        .slick-arrow {
+            font-size: 45pt !important;
+        }
+
+        h1.catalog_title {
+            text-align: justify;
+            font-size: 18pt;
+        }
+
+        h3.slider_title {
+            margin-inline: 35px !important;
+        }
+
+        div.catalog_slider {
+            margin-inline: 15px !important;
+        }
+
+        div.inner_buy {
+            img.product {
+                height: 150px !important;
+            }
+
+            div.desc {
+
+                h3.bike {
+                    font-size: 12pt !important;
+                    padding-inline: 3px !important;
+                }
+
+                p.price {
+                    font-size: 10pt !important;
+                }
+            }
+
+            button.buy {
+                font-size: 12pt !important;
+            }
+        }
     }
 }

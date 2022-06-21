@@ -1,12 +1,10 @@
 main.main {
-
-
     div.review_container {
         margin-top: 75px;
         text-align: center;
 
         h1.review_title {
-            margin-inline: 75px;
+            margin-inline: 6vw;
             border-top: 3px solid;
             padding: 10px 25px 0;
         }
@@ -19,14 +17,14 @@ main.main {
 
     ul.reviews {
         margin-top: 75px;
-        margin-inline: 150px;
+        margin-inline: 17vw;
 
         // li.review+li.review {
         //     margin-top: 120px;
         // }
 
         hr.feed_sep {
-            margin: 15px -140px;
+            margin: 15px -60px;
             height: 100px;
             border-radius: 15px;
         }
@@ -81,7 +79,6 @@ main.main {
 
                 div.content {
                     text-align: justify;
-
                 }
 
                 div.grade {
@@ -113,3 +110,75 @@ main.main {
         }
     }
 }
+
+@media screen and (min-width: 1500px) {
+    li.review {
+        font-size: 20pt;
+    }
+
+    div.feedback {
+        width: 85% !important;
+        height: 360px;
+
+        div.content {
+            font-size: 24pt;
+        }
+
+        div.grade {
+            font-size: 24pt;
+        }
+    }
+
+    div.person {
+        width: 50% !important;
+        margin: 15px 0;
+    }
+
+    img.person_face {
+        height: 250px !important;
+    }
+
+}
+
+@media screen and (max-width: 900px) {
+    ul.reviews {
+        margin-inline: 20px !important;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    h1.review_title {
+        text-align: justify;
+    }
+    h2.add {
+        margin-inline: 15px;
+    }
+    hr.feed_sep {
+        margin: 15px 0px !important;
+    }
+    li.review {
+        flex-direction: column !important;
+        justify-content: flex-start;
+        div.person {
+            margin: 25px 10px 10px !important;
+            width: 100%;
+        }
+        div.feedback {
+            display: block !important;
+            width: 100% !important;
+            min-height: 10px !important;
+        }
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+

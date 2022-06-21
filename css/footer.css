@@ -95,7 +95,6 @@ footer.footer div.content div.footer_column:last-child a.send_email {
   text-align: center;
   align-items: center;
   margin-right: 35px;
-  word-wrap: break-word;
   border-radius: 5px;
   letter-spacing: 4px;
 }
@@ -104,4 +103,58 @@ footer.footer div.content div.footer_column:last-child a.send_email:hover {
   background-color: #f3f3f3;
   font-weight: bold;
   letter-spacing: 3px;
+}
+
+@media screen and (max-width: 1200px) {
+  footer.footer div.content div.footer_column ul.friends li.friend:nth-child(n+3) {
+    display: none;
+  }
+  footer.footer div.content div.footer_column ul.friends li.friend {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    align-items: flex-start;
+  }
+  footer.footer div.content div.footer_column ul.friends li.friend h6 {
+    border: none;
+    border-bottom: 2px solid;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 900px) {
+  ul.society {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  p.desc {
+    display: none;
+  }
+}
+@media screen and (max-width: 780px) {
+  ul.friends {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  input.email {
+    width: 100%;
+  }
+
+  a.send_email {
+    width: 100%;
+  }
+  a.send_email span.big_text {
+    display: none;
+  }
+  a.send_email span.small_text {
+    display: block !important;
+  }
+
+  div.footer_column:nth-of-type(2) h4.footer_title {
+    display: none;
+  }
 }/*# sourceMappingURL=footer.css.map */

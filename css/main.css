@@ -33,6 +33,9 @@ main.main div.main_slider {
   max-height: 500px;
   background-color: #131313;
 }
+main.main div.main_slider div.slider_img {
+  height: inherit;
+}
 main.main div.main_slider div.slider_img img.slidered {
   width: inherit;
   height: inherit;
@@ -75,7 +78,7 @@ main.main div.motobikes {
 }
 main.main div.motobikes h1.moto_title {
   text-align: center;
-  margin-inline: 150px;
+  margin-inline: 5vw;
   padding: 10px 25px 0 25px;
   border-top: 3px solid;
 }
@@ -171,13 +174,15 @@ main.main div.characteristics h1.title {
 }
 main.main div.characteristic {
   display: flex;
+  align-items: center;
   flex-direction: row;
-  margin-inline: 80px;
+  margin-inline: 25px;
   justify-content: space-between;
 }
 main.main div.characteristic img.inner_charsct {
-  width: 35%;
-  margin-inline: 50px;
+  height: 150px;
+  width: 33%;
+  margin-inline: 55px;
   border-radius: 15px;
 }
 main.main div.characteristic h2.char_desc {
@@ -190,7 +195,11 @@ main.main div.characteristic h2.char_desc {
   padding-inline: 15px;
 }
 main.main div.characteristic:nth-child(even) {
+  margin: 15px 0;
   flex-direction: row-reverse;
+}
+main.main div.characteristic:nth-child(even) img.inner_charsct {
+  height: 300px;
 }
 main.main div.characteristic:nth-child(even) h2.char_desc {
   text-align: left;
@@ -221,4 +230,90 @@ main.main div.motorace div.video_container p.add_text {
   border-bottom: 2px solid;
   padding-inline: 50px;
   padding-bottom: 10px;
+}
+
+@media screen and (min-width: 1500px) {
+  main.main div.motorace div.video_container iframe.big {
+    display: block;
+    margin: 0 auto;
+  }
+  main.main div.motorace div.video_container iframe.video {
+    display: none;
+  }
+  main.main div.motorace div.video_container iframe.small {
+    display: none;
+  }
+}
+@media screen and (max-width: 900px) {
+  div.main_slider {
+    max-height: 350px !important;
+  }
+  div.main_slider img.slidered {
+    min-height: 350px !important;
+    width: auto;
+  }
+  div.main_slider p.img_text {
+    margin-top: 270px !important;
+  }
+
+  p.present_text + p.present_text {
+    display: none;
+  }
+
+  div.present {
+    padding-inline: 75px;
+  }
+
+  h1.moto_title {
+    text-align: justify !important;
+  }
+
+  div.filials h1.title {
+    text-align: justify !important;
+  }
+
+  img.map {
+    max-width: 85vw !important;
+  }
+
+  div.long_slider {
+    max-height: 450px !important;
+  }
+
+  img.long_slidered {
+    height: 150px !important;
+  }
+
+  div.filials_container {
+    flex-direction: column !important;
+  }
+
+  div.characteristics h1.title {
+    text-align: justify !important;
+  }
+  div.characteristics div.characteristic {
+    margin-inline: 55px;
+  }
+  div.characteristics div.characteristic img.inner_charsct {
+    margin-inline: 15px;
+    width: 35%;
+    height: 150px !important;
+  }
+  div.characteristics div.characteristic h2.char_desc {
+    text-align: justify !important;
+    font-size: 14pt;
+  }
+
+  main.main div.motorace div.video_container iframe.video {
+    display: none;
+  }
+  main.main div.motorace div.video_container iframe.small {
+    display: block !important;
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 500px) {
+  i.moto {
+    display: none;
+  }
 }/*# sourceMappingURL=main.css.map */
